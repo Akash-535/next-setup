@@ -27,8 +27,8 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100 px-5">
-      <div className="border border-black rounded-xl w-96 h-[500px] bg-white shadow-lg p-5">
+    <div className="flex justify-center items-center min-h-screen px-5 bg-black">
+      <div className="border border-black rounded-xl w-96 h-[400px] bg-white shadow-lg p-5">
         <input
           className="w-full h-20 border border-black rounded-xl text-right pr-4 text-xl text-black placeholder:text-black"
           type="text"
@@ -36,7 +36,7 @@ const Hero = () => {
           placeholder="0"
           disabled
         />
-        <div className="flex flex-wrap w-full gap-4 pt-5 text-black max-md:gap-2">
+        <div className="flex flex-wrap w-full gap-4 pt-5 text-black max-md:gap-2 justify-center items-center">
           {NUMBER_LIST.map((num) => (
             <button
               key={num}
